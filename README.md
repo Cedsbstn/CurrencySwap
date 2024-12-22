@@ -1,5 +1,33 @@
-# icp_rust_message_board_contract
+# Currency Swap Platform
 
+This project is a decentralized platform using Rust language built on the Internet Computer ecosystem, the purpose is to facilitate the exchange of foreign currencies. It leverages the functionality of the blockchain to ensure secure, efficient, scalable, transparency and reliability in the exchange process.
+
+## Key Features
+
+1. **User Management**
+   - **Deposit funds securely.**
+   - **Manage accounts and balances.**
+
+2. **Swap Orders**
+   - **Support market and limit orders**.
+   - **Store and manage orders efficiently.**
+
+3. **Transactions**
+   - **Process swap orders with checks for limits and security.**
+   - **Transfer funds between users.**
+
+4. **Queries**
+   - **Retrieve user balances and order details.**
+
+5. **Memory Management**
+   - **Efficient memory usage and unique order ID generation.** 
+
+6. **Error Handling**
+   - **Custom error management for issues like insufficient funds or invalid orders.**
+
+8. **Extensibility (SOON)**
+   - **Prepare for future features.**
+     
 ### Requirements
 * rustc 1.64 or higher
 ```bash
