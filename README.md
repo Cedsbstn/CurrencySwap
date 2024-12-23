@@ -28,7 +28,8 @@ This project is a decentralized platform using Rust language built on the Intern
 8. **Extensibility (SOON)**
    - **Prepare for future features.**
      
-### Requirements
+
+## Requirements
 * rustc 1.64 or higher
 ```bash
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
@@ -44,7 +45,7 @@ $ cargo install candid-extractor
 ```
 * install `dfx`
 ```bash
-$ DFX_VERSION=0.15.0 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
+$ DFX_VERSION=0.18.0 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 $ echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.bashrc"
 $ source ~/.bashrc
 $ dfx start --background
